@@ -13,7 +13,7 @@ const executeTask = (name) => new Promise(resolve => {
         width++;
         elem.style.width = width + "%";
         let pT = document.getElementById("progressText"+name);
-        pT.innerHTML = '00:'+`${parseInt(width/5)+100}`.substring(1); // Show time elapsed
+        pT.innerHTML = '00:'+`${(20-parseInt(width/5))+100}`.substring(1); // Show time elapsed
         pT.style.color = "#FFF";
       }
     }
