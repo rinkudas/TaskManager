@@ -1,0 +1,84 @@
+.btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid #7b68aa;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.add {
+  background: #7b68aa;
+  color: white;
+  cursor: pointer;
+}
+
+.remove {
+  background: none;
+  color: #7b68aa;
+  cursor: pointer;
+}
+
+.input {
+  width: 8%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #7b68aa;
+  margin: 10px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.taskDiv {
+  width: 75%;
+  border-radius: 5px;
+  border: 3px solid #7b68aa;
+  background-color: #fff;
+}
+
+.task {
+  width: 0%;
+  height: 30px;
+  background-color: #7b68aa;
+}
+
+.deleteBtn {
+  border: 3px solid #7b68aa;
+  border-radius: 5px;
+  padding: 0px 7px;
+  height: 30px;
+  margin: 5px;
+  margin-top: 0px;
+  color: #7b68aa;
+  cursor: pointer;
+}
+
+.fas {
+  margin-top: 7px;
+}
+
+.taskContainer {
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 10px;
+}
+
+.progressText {
+  margin: 10px;
+  top: 5px;
+  position: relative;
+}
+
+.disabled {
+  color: #A9A9A9;
+}
+
+
+
+
